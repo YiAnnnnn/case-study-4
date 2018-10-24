@@ -1,0 +1,120 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #FAF8C3;
+}
+#wrapper { background-color: #E2D2B0;
+           width: 80%;
+		   margin: auto;
+		   margin-top:20px;
+           min-width:1000px;
+}
+#leftcolumn { float: left;
+	          width: 150px;
+			  padding-top:30px;
+			  text-align:center;
+}
+#rightcolumn { margin-left: 155px;
+               background-color: #F5F5DC;
+			   padding-bottom: 30px;
+}
+#leftcontent{ float:left;
+			  width: 435px;
+			  padding-left:40px;
+}
+#rightcontent{ margin-left: 440px;
+}
+footer{ background-color: #D3B58C;
+}
+header{ background-color: #D3B58C;
+        padding: 5px 10px 5px 180px;
+
+}
+h2 { color: #2E0000;
+     font-family: verdana;
+	 font-size:30px;
+	 font-weight:bold;
+}
+.content {padding: 20px 30px;
+		  font-size:90%;
+}
+.adminlinks{
+	font-weight:bold;
+	font-size:18px;
+	color: #2E0000;
+	margin: 0px 0px 0px 50px;
+
+}
+.adminlinks a{
+	font-size:90%;
+	margin:0px 0px 0px 30px;
+	text-decoration:none;
+}
+.month{
+	color: #2E0000;
+	background-color:#E2D2B0;
+	font-weight:bold;
+}
+.central{
+	margin:auto;
+	width:300 px;
+}
+footer {font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding-bottom:20px;
+}
+footer a{ color:#795240;
+		text-decoration:none;
+}
+nav a {	margin: 50px;
+		font-size:110%;
+		font-family:verdana;
+		font-weight: bold;
+		text-decoration:none;
+}
+a:link{		color:#795240;}
+a:visited{	color:#D3B58C;}
+ul{ list-style-image:url(bullet.jpg);
+	padding-left:0px;
+	list-style-position:inside;}
+table#table1{
+		margin:auto;
+		width:800px;
+		color:#2E0000;
+}
+table#table1 td,th{
+		padding:10px;
+		font-family:Verdana, sans-serif;
+		border-style:none;
+		font-size:90%;
+}
+table#table1 tr:nth-of-type(even){background-color:#D3B58C;
+}
+table#table2{
+		margin-left:auto;
+		margin-right:auto;
+		width:450px;
+		color:#2E0000;
+}
+table#table2 th{
+		padding: 0px 5px;
+		font-family:Verdana, sans-serif;
+		border-style:none;
+		text-align:left;
+		font-size:120%;
+}
+table#table2 td{
+		padding:15px 25px;
+		font-family:Verdana, sans-serif;
+		border-style:none;
+		font-size:90%;
+		vertical-align:top;
+}
+table#table2 tr:nth-of-type(odd){ color: #2E0000;
+								  background-color:#E2D2B0;
+}
+label {
+    display:inline-block;
+	vertical-align: top;
+    text-align: right;
+    width: 100px;
+}
